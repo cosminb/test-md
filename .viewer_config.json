@@ -6,7 +6,7 @@
     "colors": {
       "primary": "#0ea5e9",
       "secondary": "#64748b",
-      "background": "#f8fafc",
+      "background": "red",
       "surface": "#ffffff",
       "text": "#0f172a",
       "border": "#e2e8f0",
