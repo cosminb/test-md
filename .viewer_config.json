@@ -1,0 +1,46 @@
+{
+  "name": "Modern Documentation Viewer",
+  "description": "A modern, customizable documentation viewer for GitHub repositories",
+  "version": "1.0.0",
+  "theme": {
+    "colors": {
+      "primary": "#0ea5e9",
+      "secondary": "#64748b",
+      "background": "#f8fafc",
+      "surface": "#ffffff",
+      "text": "#0f172a",
+      "border": "#e2e8f0",
+      "accent": "#0284c7"
+    },
+    "typography": {
+      "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
+      "fontSize": {
+        "base": "1rem",
+        "small": "0.875rem",
+        "large": "1.25rem"
+      }
+    }
+  },
+  "behavior": {
+    "tree": {
+      "initiallyExpanded": false,
+      "showFileIcons": true,
+      "indentSize": 1.5,
+      "sortFiles": "type",
+      "groupFolders": true
+    },
+    "search": {
+      "enabled": true,
+      "debounceMs": 250,
+      "minLength": 2,
+      "caseSensitive": false
+    },
+    "markdown": {
+      "enableMath": true,
+      "enableDiagrams": true,
+      "enableSyntaxHighlighting": true,
+      "lineNumbers": true,
+      "allowHtml": false
+    }
+  }
+}
