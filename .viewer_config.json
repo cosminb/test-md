@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "theme": {
     "colors": {
-      "primary": "#0ea5e9",
+      "primary": "red",
       "secondary": "#64748b",
       "background": "red",
       "surface": "#ffffff",
